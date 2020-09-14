@@ -9,6 +9,8 @@ namespace BackgroundJob
         public App()
         {
             InitializeComponent();
+
+            MainPage = new NavigationPage(new Views.MainView());
         }
 
         protected override void OnStart()

@@ -9,10 +9,12 @@
         <StackLayout>
             <Button Command="{Binding AddCommand}" Text="Add" />
             <Button Command="{Binding ReadCommand}" Text="Show" />
-            <ListView>
+            <ListView ItemsSource="{Binding ItemsList}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding .}" />
+                        <ViewCell>
+                        <Label Text="{Binding .}" />
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Windows.Input;
 using System.Xml.Serialization;
 using Xamarin.Forms;
 
@@ -11,8 +12,8 @@ namespace BackgroundJob.ViewModels
     {
         public List<string> ItemsList { get; set; }
 
-        public Command AddCommand { get; set; }
-        public Command ReadCommand { get; set; }
+        public ICommand AddCommand { get; set; }
+        public ICommand ReadCommand { get; set; }
 
         public MainViewModel()
         {
