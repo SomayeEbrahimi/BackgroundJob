@@ -1,11 +1,8 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
+using Matcha.BackgroundService.Droid;
 
 namespace BackgroundJob.Droid
 {
@@ -19,8 +16,11 @@ namespace BackgroundJob.Droid
 
             base.OnCreate(savedInstanceState);
 
+            BackgroundAggregator.Init(this);
+
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
             LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

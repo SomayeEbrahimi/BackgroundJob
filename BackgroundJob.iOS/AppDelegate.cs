@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
+﻿using Matcha.BackgroundService.iOS;
 using Foundation;
 using UIKit;
 
@@ -22,6 +19,8 @@ namespace BackgroundJob.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            BackgroundAggregator.Init(this);
+
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
