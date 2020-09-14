@@ -9,10 +9,31 @@
         <vm:MainViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout>
-            <Button Command="{Binding AddCommand}" Text="Add" />
-            <Button Command="{Binding ReadCommand}" Text="Show List" />
-            <ListView ItemsSource="{Binding ItemsList}">
+        <StackLayout Padding="30">
+            <Grid>
+                <Button
+                    BackgroundColor="LightBlue"
+                    Command="{Binding AddCommand}"
+                    HeightRequest="65"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Write On File"
+                    VerticalOptions="CenterAndExpand"
+                    WidthRequest="150" />
+                <Button
+                    Grid.Column="1"
+                    BackgroundColor="LightBlue"
+                    Command="{Binding ReadCommand}"
+                    HeightRequest="65"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Show Contents"
+                    VerticalOptions="CenterAndExpand"
+                    WidthRequest="150" />
+            </Grid>
+            <ListView
+                x:Name="listView"
+                HorizontalOptions="Center"
+                ItemsSource="{Binding ItemsList}"
+                VerticalOptions="Center">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
