@@ -1,49 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Reflection;
+using System.Threading.Tasks;
 using System.Windows.Input;
-using System.Xml.Serialization;
 using Xamarin.Forms;
 
 namespace BackgroundJob.ViewModels
 {
     public class MainViewModel
     {
-        public List<string> ItemsList { get; set; }
+        public List<string> ItemsList { get; set; } = new List<string>();
 
         public ICommand AddCommand { get; set; }
         public ICommand ReadCommand { get; set; }
 
         public MainViewModel()
         {
-            AddCommand = new Command(Add);
-            ReadCommand = new Command(Read);
+            AddCommand = new Command(async () => await Add());
+            ReadCommand = new Command(async () => await Read());
         }
 
-
-        void Add()
+        async Task Add()
         {
-            using (var writer = new StreamWriter(GetFileStream()))
+            using (var writer = new StreamWriter(GetFilePath(), append: true))
             {
-                writer.WriteLine(DateTime.Now);
+               await writer.WriteLineAsync(DateTime.Now.ToString());
             }
         }
 
-        void Read()
+        async Task Read()
         {
-            using (var reader = new StreamReader(GetFileStream()))
+            using (var reader = new StreamReader(GetFilePath()))
             {
-                var serializer = new XmlSerializer(typeof(List<string>));
-                ItemsList = (List<string>)serializer.Deserialize(reader);
+                while (reader.ReadLine() != null)
+                    ItemsList.Add(await reader.ReadLineAsync());
             }
         }
 
-        Stream GetFileStream()
+        string GetFilePath()
         {
-            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(MainViewModel)).Assembly;
-
-            return assembly.GetManifestResourceStream("BackgroundJob.DateTime.txt");
+            string rootPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            return Path.Combine(rootPath, "DateTime.txt");
         }
     }
 }

@@ -5,15 +5,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:vm="clr-namespace:BackgroundJob.ViewModels"
     x:DataType="vm:MainViewModel">
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
             <Button Command="{Binding AddCommand}" Text="Add" />
-            <Button Command="{Binding ReadCommand}" Text="Show" />
+            <Button Command="{Binding ReadCommand}" Text="Show List" />
             <ListView ItemsSource="{Binding ItemsList}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                        <Label Text="{Binding .}" />
+                            <Label Text="{Binding .}" />
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
