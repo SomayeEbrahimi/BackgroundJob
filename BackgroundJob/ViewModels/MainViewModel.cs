@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
@@ -10,9 +9,11 @@ using Xamarin.Forms;
 
 namespace BackgroundJob.ViewModels
 {
-    public class MainViewModel:System.ComponentModel.INotifyPropertyChanged
+    public class MainViewModel : INotifyPropertyChanged
     {
-        public ObservableCollection<string> ItemsList { get; set; }
+        public ObservableCollection<string> ItemsList { get; set; } = new ObservableCollection<string>();
+
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public ICommand AddCommand { get; set; }
         public ICommand ReadCommand { get; set; }
@@ -23,8 +24,6 @@ namespace BackgroundJob.ViewModels
             ReadCommand = new Command(async () => await Read());
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public void OnPropertyChanged([CallerMemberName] string name = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
@@ -34,20 +33,19 @@ namespace BackgroundJob.ViewModels
         {
             using (var writer = new StreamWriter(GetFilePath(), append: true))
             {
-               await writer.WriteLineAsync(DateTime.Now.ToString());
+                await writer.WriteLineAsync(DateTime.Now.ToString());
             }
         }
 
         async Task Read()
         {
-            ItemsList = new ObservableCollection<string>();
             using (var reader = new StreamReader(GetFilePath()))
             {
                 while (reader.ReadLine() != null)
                     ItemsList.Add(await reader.ReadLineAsync());
             }
+
             OnPropertyChanged("ItemsList");
-            
         }
 
         string GetFilePath()
