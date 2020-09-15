@@ -2,8 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/BackgroundJob/DesignTimeBuild
-/BackgroundJob/bin/Debug/netstandard2.0
-/BackgroundJob.Android/bin/Debug
+/.vs
+/BackgroundJob/bin
 /BackgroundJob/obj
+/BackgroundJob.Android/bin
 /BackgroundJob.Android/obj
+/BackgroundJob.iOS/bin
+/BackgroundJob.iOS/obj
