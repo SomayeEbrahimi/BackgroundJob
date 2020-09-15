@@ -3,25 +3,22 @@
     x:Class="BackgroundJob.Views.MainView"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:vm="clr-namespace:BackgroundJob.ViewModels">
+    xmlns:vm="clr-namespace:BackgroundJob.ViewModels"
+    Title="BackgroundJob">
     <ContentPage.BindingContext>
         <vm:MainViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout Padding="20" Spacing="10">
-            <StackLayout Orientation="Horizontal">
+        <StackLayout>
+            <StackLayout Padding="20" Orientation="Horizontal">
                 <Button
                     Command="{Binding AddCommand}"
-                    CornerRadius="20"
-                    HeightRequest="40"
                     HorizontalOptions="CenterAndExpand"
                     Text="Write On File"
                     VerticalOptions="CenterAndExpand"
                     WidthRequest="150" />
                 <Button
                     Command="{Binding ReadCommand}"
-                    CornerRadius="20"
-                    HeightRequest="40"
                     HorizontalOptions="CenterAndExpand"
                     Text="Show Contents"
                     VerticalOptions="CenterAndExpand"
@@ -35,12 +32,10 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding ., Mode=OneWay}" />
-
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding ., Mode=OneWay}" VerticalOptions="CenterAndExpand" />
                             </StackLayout>
                         </ViewCell>
-
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

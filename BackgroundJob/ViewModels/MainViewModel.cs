@@ -56,8 +56,4 @@ namespace BackgroundJob.ViewModels
             return Path.Combine(rootPath, "DateTime.txt");
         }
     }
-   public class data
-    {
-        public string Val { get; set; }
-    }
 }

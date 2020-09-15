@@ -11,3 +11,17 @@ F:\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\XamlC.stamp
 F:\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\BackgroundJob.dll
 F:\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\ref\BackgroundJob.dll
 F:\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\BackgroundJob.pdb
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\bin\Debug\netstandard2.0\BackgroundJob.deps.json
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\bin\Debug\netstandard2.0\BackgroundJob.dll
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\bin\Debug\netstandard2.0\ref\BackgroundJob.dll
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\bin\Debug\netstandard2.0\BackgroundJob.pdb
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\BackgroundJob.csprojAssemblyReference.cache
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\Views\MainView.xaml.g.cs
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\BackgroundJob.AssemblyInfoInputs.cache
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\BackgroundJob.AssemblyInfo.cs
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\BackgroundJob.csproj.CoreCompileInputs.cache
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\BackgroundJob.dll
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\ref\BackgroundJob.dll
+C:\Users\mvv\source\repos\BackgroundJob\BackgroundJob\obj\Debug\netstandard2.0\BackgroundJob.pdb
