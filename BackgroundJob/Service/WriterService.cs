@@ -9,7 +9,7 @@ namespace BackgroundJob.Service
     {
         public WriterService()
         {
-            Interval = TimeSpan.FromSeconds(1);
+            Interval = TimeSpan.FromMinutes(1);
         }
 
         public TimeSpan Interval { get; set; }
