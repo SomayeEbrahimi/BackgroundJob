@@ -11,7 +11,7 @@ namespace BackgroundJob.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        public ObservableCollection<string> ItemsList { get; set; } = new ObservableCollection<string>();
+        public ObservableCollection<string> ItemsList { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -39,6 +39,8 @@ namespace BackgroundJob.ViewModels
 
         async Task Read()
         {
+            ItemsList = new ObservableCollection<string>();
+
             using (var reader = new StreamReader(GetFilePath()))
             {
                 while (reader.ReadLine() != null)
