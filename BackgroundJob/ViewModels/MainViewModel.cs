@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace BackgroundJob.ViewModels
 {
-    public class MainViewModel
+    public class MainViewModel:System.ComponentModel.INotifyPropertyChanged
     {
-        public List<string> ItemsList { get; set; } = new List<string>();
+        public ObservableCollection<string> ItemsList { get; set; }
 
         public ICommand AddCommand { get; set; }
         public ICommand ReadCommand { get; set; }
@@ -18,6 +21,13 @@ namespace BackgroundJob.ViewModels
         {
             AddCommand = new Command(async () => await Add());
             ReadCommand = new Command(async () => await Read());
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnPropertyChanged([CallerMemberName] string name = "")
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
         async Task Add()
@@ -30,11 +40,14 @@ namespace BackgroundJob.ViewModels
 
         async Task Read()
         {
+            ItemsList = new ObservableCollection<string>();
             using (var reader = new StreamReader(GetFilePath()))
             {
                 while (reader.ReadLine() != null)
                     ItemsList.Add(await reader.ReadLineAsync());
             }
+            OnPropertyChanged("ItemsList");
+            
         }
 
         string GetFilePath()
@@ -42,5 +55,9 @@ namespace BackgroundJob.ViewModels
             string rootPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             return Path.Combine(rootPath, "DateTime.txt");
         }
+    }
+   public class data
+    {
+        public string Val { get; set; }
     }
 }

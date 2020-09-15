@@ -3,32 +3,30 @@
     x:Class="BackgroundJob.Views.MainView"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:vm="clr-namespace:BackgroundJob.ViewModels"
-    x:DataType="vm:MainViewModel">
+    xmlns:vm="clr-namespace:BackgroundJob.ViewModels">
     <ContentPage.BindingContext>
         <vm:MainViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout Padding="30">
-            <Grid>
+        <StackLayout Padding="20" Spacing="10">
+            <StackLayout Orientation="Horizontal">
                 <Button
-                    BackgroundColor="LightBlue"
                     Command="{Binding AddCommand}"
-                    HeightRequest="65"
+                    CornerRadius="20"
+                    HeightRequest="40"
                     HorizontalOptions="CenterAndExpand"
                     Text="Write On File"
                     VerticalOptions="CenterAndExpand"
                     WidthRequest="150" />
                 <Button
-                    Grid.Column="1"
-                    BackgroundColor="LightBlue"
                     Command="{Binding ReadCommand}"
-                    HeightRequest="65"
+                    CornerRadius="20"
+                    HeightRequest="40"
                     HorizontalOptions="CenterAndExpand"
                     Text="Show Contents"
                     VerticalOptions="CenterAndExpand"
                     WidthRequest="150" />
-            </Grid>
+            </StackLayout>
             <ListView
                 x:Name="listView"
                 HorizontalOptions="Center"
@@ -37,8 +35,12 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Label Text="{Binding .}" />
+                            <StackLayout>
+                                <Label Text="{Binding ., Mode=OneWay}" />
+
+                            </StackLayout>
                         </ViewCell>
+
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

@@ -7,3 +7,11 @@
 /BackgroundJob.Android/bin/Debug
 /BackgroundJob/obj
 /BackgroundJob.Android/obj
+/BackgroundJob.iOS/bin/iPhoneSimulator/Debug
+/BackgroundJob.iOS/obj/iPhone/Debug
+/BackgroundJob.iOS/obj/iPhoneSimulator/Debug/actool
+/BackgroundJob.iOS/obj/iPhoneSimulator/Debug/build-signature
+/BackgroundJob.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac
+/BackgroundJob.iOS/obj/iPhoneSimulator/Debug/coremlc
+/BackgroundJob.iOS/obj/iPhoneSimulator/Debug
+/BackgroundJob.iOS
