@@ -3,6 +3,8 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
 using Matcha.BackgroundService.Droid;
+using Android.Content;
+using System;
 
 namespace BackgroundJob.Droid
 {
@@ -22,6 +24,14 @@ namespace BackgroundJob.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             LoadApplication(new App());
+
+            var alarmIntent = new Intent(this, typeof(BackgroundReceiver));
+
+            var pending = PendingIntent.GetBroadcast(this, 0, alarmIntent, PendingIntentFlags.UpdateCurrent);
+
+            var alarmManager = GetSystemService(AlarmService).JavaCast<AlarmManager>();
+
+            alarmManager.Set(AlarmType.ElapsedRealtime, 2000, pending);
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

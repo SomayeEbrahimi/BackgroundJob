@@ -15,17 +15,17 @@ namespace BackgroundJob
 
         protected override void OnStart()
         {
-            StartBackgroundService();
+          // StartBackgroundService();
         }
 
         protected override void OnSleep()
         {
-            StartBackgroundService();
+           // StartBackgroundService();
         }
 
         protected override void OnResume()
         {
-            StartBackgroundService();
+           // StartBackgroundService();
         }
 
         private static void StartBackgroundService()
