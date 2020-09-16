@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.backgroundjob">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
   <application android:label="BackgroundJob.Android">
-    <receiver android:name=".BackgroundReceiver"></receiver>
+     <receiver android:name=".AlarmReceiver" android:enabled="true" android:exported="true" android:process=":remote" android:label="AlarmReceiver"/> 
   </application>
 </manifest>
