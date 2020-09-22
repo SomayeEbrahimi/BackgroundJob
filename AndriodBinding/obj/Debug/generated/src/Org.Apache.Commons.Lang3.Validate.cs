@@ -1036,13 +1036,6 @@ namespace Org.Apache.Commons.Lang3 {
 			}
 		}
 
-		public static global::Java.Lang.Object ValidIndex (global::Java.Lang.Object chars, int index)
-		{
-			global::Java.Lang.Object __result = ValidIndex (chars, index);
-			var __rsval = __result;
-			return __rsval;
-		}
-
 		static IntPtr id_validIndex_Ljava_util_Collection_I;
 		// Metadata.xml XPath method reference: path="/api/package[@name='org.apache.commons.lang3']/class[@name='Validate']/method[@name='validIndex' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='int']]"
 		[Register ("validIndex", "(Ljava/util/Collection;I)Ljava/util/Collection;", "")]
