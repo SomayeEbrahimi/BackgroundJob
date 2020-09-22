@@ -50,8 +50,8 @@
     <EmbeddedReferenceJar Include="Jars\appcompat-1.2.0.aar" />
     <EmbeddedReferenceJar Include="Jars\dfu-1.8.0.aar" />
     <EmbeddedReferenceJar Include="Jars\rxandroid-2.1.1.aar" />
-    <LibraryProjectZip Include="Jars\sdk-common-1.2.0.0254.aar" />
-    <LibraryProjectZip Include="Jars\sdk-core-2.1.0.0901.aar" />
+    <EmbeddedReferenceJar Include="Jars\sdk-common-1.2.0.0254.aar" />
+    <EmbeddedReferenceJar Include="Jars\sdk-core-2.1.0.0901.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
