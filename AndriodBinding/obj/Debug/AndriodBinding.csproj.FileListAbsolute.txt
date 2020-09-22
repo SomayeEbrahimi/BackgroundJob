@@ -1,4 +1,5 @@
+F:\BackgroundJob\AndriodBinding\obj\Debug\__AndroidLibraryProjects__.zip
 F:\BackgroundJob\AndriodBinding\obj\Debug\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
+F:\BackgroundJob\AndriodBinding\obj\Debug\AndriodBinding.csprojAssemblyReference.cache
 F:\BackgroundJob\AndriodBinding\obj\Debug\stamp\_BuildLibraryImportsCache.stamp
 F:\BackgroundJob\AndriodBinding\obj\Debug\AndriodBinding.csproj.CoreCompileInputs.cache
-F:\BackgroundJob\AndriodBinding\obj\Debug\AndriodBinding.csprojAssemblyReference.cache
