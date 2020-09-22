@@ -14,10 +14,12 @@ namespace Java.Interop {
 #endif // def MONODROID_TIMING
 			Java.Interop.TypeManager.RegisterPackages (
 					new string[]{
-						"com/vivalnk/sdk/common/eventbus",
+						"org/aspectj/lang/reflect",
+						"retrofit2",
 					},
 					new Converter<string, Type>[]{
-						lookup_com_vivalnk_sdk_common_eventbus_package,
+						lookup_org_aspectj_lang_reflect_package,
+						lookup_retrofit2_package,
 					});
 #if MONODROID_TIMING
 			var end = DateTime.Now;
@@ -33,18 +35,30 @@ namespace Java.Interop {
 			return Type.GetType (managedType);
 		}
 
-		static string[] package_com_vivalnk_sdk_common_eventbus_mappings;
-		static Type lookup_com_vivalnk_sdk_common_eventbus_package (string klass)
+		static string[] package_org_aspectj_lang_reflect_mappings;
+		static Type lookup_org_aspectj_lang_reflect_package (string klass)
 		{
-			if (package_com_vivalnk_sdk_common_eventbus_mappings == null) {
-				package_com_vivalnk_sdk_common_eventbus_mappings = new string[]{
-					"com/vivalnk/sdk/common/eventbus/Logger$JavaLogger:Com.Vivalnk.Sdk.Common.Eventbus.LoggerJavaLogger",
-					"com/vivalnk/sdk/common/eventbus/Logger$SystemOutLogger:Com.Vivalnk.Sdk.Common.Eventbus.LoggerSystemOutLogger",
-					"com/vivalnk/sdk/common/eventbus/MainThreadSupport$AndroidHandlerMainThreadSupport:Com.Vivalnk.Sdk.Common.Eventbus.MainThreadSupportAndroidHandlerMainThreadSupport",
+			if (package_org_aspectj_lang_reflect_mappings == null) {
+				package_org_aspectj_lang_reflect_mappings = new string[]{
+					"org/aspectj/lang/reflect/DeclareAnnotation$Kind:Org.Aspectj.Lang.Reflect.DeclareAnnotationKind",
 				};
 			}
 
-			return Lookup (package_com_vivalnk_sdk_common_eventbus_mappings, klass);
+			return Lookup (package_org_aspectj_lang_reflect_mappings, klass);
+		}
+
+		static string[] package_retrofit2_mappings;
+		static Type lookup_retrofit2_package (string klass)
+		{
+			if (package_retrofit2_mappings == null) {
+				package_retrofit2_mappings = new string[]{
+					"retrofit2/CallAdapter$Factory:Retrofit2.CallAdapterFactory",
+					"retrofit2/Converter$Factory:Retrofit2.ConverterFactory",
+					"retrofit2/-KotlinExtensions:Retrofit2._KotlinExtensions",
+				};
+			}
+
+			return Lookup (package_retrofit2_mappings, klass);
 		}
 	}
 }

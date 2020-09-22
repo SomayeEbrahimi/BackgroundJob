@@ -4,8 +4,8 @@ using Android.Runtime;
 using Android.OS;
 using Matcha.BackgroundService.Droid;
 using Android.Content;
-//using Com.Vivalnk.Vdireaderimpl;
-//using Com.Vivalnk.Vdireader;
+using Com.Vivalnk.Vdireaderimpl;
+using Com.Vivalnk.Vdireader;
 
 namespace BackgroundJob.Droid
 {
@@ -32,14 +32,12 @@ namespace BackgroundJob.Droid
             var alarmManager = GetSystemService(AlarmService).JavaCast<AlarmManager>();
             alarmManager.SetRepeating(AlarmType.RtcWakeup, 0, 1 * 10, pending);
 
-            //IVDICommonBleReader mBleReader;
-            //if (Build.VERSION.PreviewSdkInt >= 21)
-            //    mBleReader = new VDIBleThermometerL();
-            //else
-            //    mBleReader = new VDIBleThermometer(mContext);
+            IVDICommonBleReader mBleReader;
 
-            //mBleReader.de;
-
+            if (Build.VERSION.PreviewSdkInt >= 21)
+                mBleReader = new VDIBleThermometerL(this);
+            else
+                mBleReader = new VDIBleThermometer(this);
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

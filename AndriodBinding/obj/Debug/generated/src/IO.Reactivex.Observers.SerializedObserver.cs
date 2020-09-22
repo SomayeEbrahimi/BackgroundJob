@@ -1,0 +1,178 @@
+using System;
+using System.Collections.Generic;
+using Android.Runtime;
+
+namespace IO.Reactivex.Observers {
+
+	// Metadata.xml XPath class reference: path="/api/package[@name='io.reactivex.observers']/class[@name='SerializedObserver']"
+	[global::Android.Runtime.Register ("io/reactivex/observers/SerializedObserver", DoNotGenerateAcw=true)]
+	[global::Java.Interop.JavaTypeParameters (new string [] {"T"})]
+	public sealed partial class SerializedObserver : global::Java.Lang.Object, global::IO.Reactivex.IObserver, global::IO.Reactivex.Disposables.IDisposable {
+
+		internal static IntPtr java_class_handle;
+		internal static IntPtr class_ref {
+			get {
+				return JNIEnv.FindClass ("io/reactivex/observers/SerializedObserver", ref java_class_handle);
+			}
+		}
+
+		protected override IntPtr ThresholdClass {
+			get { return class_ref; }
+		}
+
+		protected override global::System.Type ThresholdType {
+			get { return typeof (SerializedObserver); }
+		}
+
+		internal SerializedObserver (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
+
+		static IntPtr id_ctor_Lio_reactivex_Observer_;
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='io.reactivex.observers']/class[@name='SerializedObserver']/constructor[@name='SerializedObserver' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]"
+		[Register (".ctor", "(Lio/reactivex/Observer;)V", "")]
+		public unsafe SerializedObserver (global::IO.Reactivex.IObserver downstream)
+			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		{
+			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
+				return;
+
+			try {
+				JValue* __args = stackalloc JValue [1];
+				__args [0] = new JValue (downstream);
+				if (((object) this).GetType () != typeof (SerializedObserver)) {
+					SetHandle (
+							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(Lio/reactivex/Observer;)V", __args),
+							JniHandleOwnership.TransferLocalRef);
+					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "(Lio/reactivex/Observer;)V", __args);
+					return;
+				}
+
+				if (id_ctor_Lio_reactivex_Observer_ == IntPtr.Zero)
+					id_ctor_Lio_reactivex_Observer_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Lio/reactivex/Observer;)V");
+				SetHandle (
+						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_Lio_reactivex_Observer_, __args),
+						JniHandleOwnership.TransferLocalRef);
+				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_Lio_reactivex_Observer_, __args);
+			} finally {
+			}
+		}
+
+		static IntPtr id_ctor_Lio_reactivex_Observer_Z;
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='io.reactivex.observers']/class[@name='SerializedObserver']/constructor[@name='SerializedObserver' and count(parameter)=2 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;'] and parameter[2][@type='boolean']]"
+		[Register (".ctor", "(Lio/reactivex/Observer;Z)V", "")]
+		public unsafe SerializedObserver (global::IO.Reactivex.IObserver actual, bool delayError)
+			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		{
+			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
+				return;
+
+			try {
+				JValue* __args = stackalloc JValue [2];
+				__args [0] = new JValue (actual);
+				__args [1] = new JValue (delayError);
+				if (((object) this).GetType () != typeof (SerializedObserver)) {
+					SetHandle (
+							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(Lio/reactivex/Observer;Z)V", __args),
+							JniHandleOwnership.TransferLocalRef);
+					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "(Lio/reactivex/Observer;Z)V", __args);
+					return;
+				}
+
+				if (id_ctor_Lio_reactivex_Observer_Z == IntPtr.Zero)
+					id_ctor_Lio_reactivex_Observer_Z = JNIEnv.GetMethodID (class_ref, "<init>", "(Lio/reactivex/Observer;Z)V");
+				SetHandle (
+						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_Lio_reactivex_Observer_Z, __args),
+						JniHandleOwnership.TransferLocalRef);
+				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_Lio_reactivex_Observer_Z, __args);
+			} finally {
+			}
+		}
+
+		static IntPtr id_isDisposed;
+		public unsafe bool IsDisposed {
+			// Metadata.xml XPath method reference: path="/api/package[@name='io.reactivex.observers']/class[@name='SerializedObserver']/method[@name='isDisposed' and count(parameter)=0]"
+			[Register ("isDisposed", "()Z", "")]
+			get {
+				if (id_isDisposed == IntPtr.Zero)
+					id_isDisposed = JNIEnv.GetMethodID (class_ref, "isDisposed", "()Z");
+				try {
+					return JNIEnv.CallBooleanMethod (((global::Java.Lang.Object) this).Handle, id_isDisposed);
+				} finally {
+				}
+			}
+		}
+
+		static IntPtr id_dispose;
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.reactivex.observers']/class[@name='SerializedObserver']/method[@name='dispose' and count(parameter)=0]"
+		[Register ("dispose", "()V", "")]
+		public unsafe void Dispose ()
+		{
+			if (id_dispose == IntPtr.Zero)
+				id_dispose = JNIEnv.GetMethodID (class_ref, "dispose", "()V");
+			try {
+				JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_dispose);
+			} finally {
+			}
+		}
+
+		static IntPtr id_onComplete;
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.reactivex.observers']/class[@name='SerializedObserver']/method[@name='onComplete' and count(parameter)=0]"
+		[Register ("onComplete", "()V", "")]
+		public unsafe void OnComplete ()
+		{
+			if (id_onComplete == IntPtr.Zero)
+				id_onComplete = JNIEnv.GetMethodID (class_ref, "onComplete", "()V");
+			try {
+				JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_onComplete);
+			} finally {
+			}
+		}
+
+		static IntPtr id_onError_Ljava_lang_Throwable_;
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.reactivex.observers']/class[@name='SerializedObserver']/method[@name='onError' and count(parameter)=1 and parameter[1][@type='java.lang.Throwable']]"
+		[Register ("onError", "(Ljava/lang/Throwable;)V", "")]
+		public unsafe void OnError (global::Java.Lang.Throwable t)
+		{
+			if (id_onError_Ljava_lang_Throwable_ == IntPtr.Zero)
+				id_onError_Ljava_lang_Throwable_ = JNIEnv.GetMethodID (class_ref, "onError", "(Ljava/lang/Throwable;)V");
+			try {
+				JValue* __args = stackalloc JValue [1];
+				__args [0] = new JValue (t);
+				JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_onError_Ljava_lang_Throwable_, __args);
+			} finally {
+			}
+		}
+
+		static IntPtr id_onNext_Ljava_lang_Object_;
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.reactivex.observers']/class[@name='SerializedObserver']/method[@name='onNext' and count(parameter)=1 and parameter[1][@type='T']]"
+		[Register ("onNext", "(Ljava/lang/Object;)V", "")]
+		public unsafe void OnNext (global::Java.Lang.Object t)
+		{
+			if (id_onNext_Ljava_lang_Object_ == IntPtr.Zero)
+				id_onNext_Ljava_lang_Object_ = JNIEnv.GetMethodID (class_ref, "onNext", "(Ljava/lang/Object;)V");
+			IntPtr native_t = JNIEnv.ToLocalJniHandle (t);
+			try {
+				JValue* __args = stackalloc JValue [1];
+				__args [0] = new JValue (native_t);
+				JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_onNext_Ljava_lang_Object_, __args);
+			} finally {
+				JNIEnv.DeleteLocalRef (native_t);
+			}
+		}
+
+		static IntPtr id_onSubscribe_Lio_reactivex_disposables_Disposable_;
+		// Metadata.xml XPath method reference: path="/api/package[@name='io.reactivex.observers']/class[@name='SerializedObserver']/method[@name='onSubscribe' and count(parameter)=1 and parameter[1][@type='io.reactivex.disposables.Disposable']]"
+		[Register ("onSubscribe", "(Lio/reactivex/disposables/Disposable;)V", "")]
+		public unsafe void OnSubscribe (global::IO.Reactivex.Disposables.IDisposable d)
+		{
+			if (id_onSubscribe_Lio_reactivex_disposables_Disposable_ == IntPtr.Zero)
+				id_onSubscribe_Lio_reactivex_disposables_Disposable_ = JNIEnv.GetMethodID (class_ref, "onSubscribe", "(Lio/reactivex/disposables/Disposable;)V");
+			try {
+				JValue* __args = stackalloc JValue [1];
+				__args [0] = new JValue (d);
+				JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_onSubscribe_Lio_reactivex_disposables_Disposable_, __args);
+			} finally {
+			}
+		}
+
+	}
+}
