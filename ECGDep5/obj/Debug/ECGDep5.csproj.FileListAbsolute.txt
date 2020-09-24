@@ -1,0 +1,7 @@
+F:\BackgroundJob\ECGDep5\bin\Debug\ECGDep5.dll
+F:\BackgroundJob\ECGDep5\bin\Debug\ECGDep5.pdb
+F:\BackgroundJob\ECGDep5\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+F:\BackgroundJob\ECGDep5\obj\Debug\stamp\_BuildLibraryImportsCache.stamp
+F:\BackgroundJob\ECGDep5\obj\Debug\ECGDep5.csproj.CoreCompileInputs.cache
+F:\BackgroundJob\ECGDep5\obj\Debug\ECGDep5.dll
+F:\BackgroundJob\ECGDep5\obj\Debug\ECGDep5.pdb

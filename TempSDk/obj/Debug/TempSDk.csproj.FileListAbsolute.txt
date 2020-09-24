@@ -1,0 +1,7 @@
+F:\BackgroundJob\TempSDk\bin\Debug\TempSDk.dll
+F:\BackgroundJob\TempSDk\bin\Debug\TempSDk.pdb
+F:\BackgroundJob\TempSDk\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+F:\BackgroundJob\TempSDk\obj\Debug\stamp\_BuildLibraryImportsCache.stamp
+F:\BackgroundJob\TempSDk\obj\Debug\TempSDk.csproj.CoreCompileInputs.cache
+F:\BackgroundJob\TempSDk\obj\Debug\TempSDk.dll
+F:\BackgroundJob\TempSDk\obj\Debug\TempSDk.pdb

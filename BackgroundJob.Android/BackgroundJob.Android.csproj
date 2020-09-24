@@ -50,8 +50,11 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AndriodBinding">
-      <HintPath>..\AndriodBinding\bin\Debug\AndriodBinding.dll</HintPath>
+    <Reference Include="ECGCommonSDK">
+      <HintPath>..\ECGCommonSDK\bin\Debug\ECGCommonSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="ECGCoreSDK">
+      <HintPath>..\ECGCoreSDK\bin\Debug\ECGCoreSDK.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
