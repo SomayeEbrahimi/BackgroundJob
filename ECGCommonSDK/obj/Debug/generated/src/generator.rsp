@@ -152,7 +152,6 @@
 --ref="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XPath.XDocument.dll"
 --ref="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XPath.XmlDocument.dll"
 --ref="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.Xsl.Primitives.dll"
---annotations="F:\BackgroundJob\ECGCommonSDK\obj\Debug\library_project_annotations\annotations.zip"
 "--fixup=Transforms\Metadata.xml"
 "--enumfields=Transforms\EnumFields.xml"
 "--enummethods=Transforms\EnumMethods.xml"

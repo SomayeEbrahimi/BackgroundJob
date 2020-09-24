@@ -1,1 +1,1114 @@
-<api></api>
+<api>
+  <package name="com.vivalnk.a" jni-name="com/vivalnk/a">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/vivalnk/a/a;">
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.a.a" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(FJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(FJFI)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p2" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;FLcom/vivalnk/vdireader/VDICommonBleListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p2" type="com.vivalnk.vdireader.VDICommonBleListener" jni-type="Lcom/vivalnk/vdireader/VDICommonBleListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(FJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/lang/String;)F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" jni-return="Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="(FJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="(Ljava/lang/String;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="(F)F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="(FJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="(F)F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="f" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="f" jni-signature="(F)F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="g" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="h" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="g" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="h" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="i" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="j" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="k" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="l" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="m" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="n" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="o" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="p" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="q" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="r" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="s" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="t" jni-signature="Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" static="false" transient="false" type="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" type-generic-aware="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="u" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="v" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="w" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="x" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="y" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="z" jni-signature="Lcom/vivalnk/a/d;" static="false" transient="false" type="com.vivalnk.a.d" type-generic-aware="com.vivalnk.a.d" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.vivalnk.a.a" extends-generic-aware="com.vivalnk.a.a" jni-extends="Lcom/vivalnk/a/a;" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/vivalnk/a/b;">
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.a.b" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="(FJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="Lcom/vivalnk/a/c;">
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.a.c" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="([DI)D" bridge="false" native="false" return="double" jni-return="D" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double[]" jni-type="[D">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(FI)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="([I[D)[D" bridge="false" native="false" return="double[]" jni-return="[D" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int[]" jni-type="[I">
+        </parameter>
+        <parameter name="p1" type="double[]" jni-type="[D">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()D" bridge="false" native="false" return="double" jni-return="D" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="d" static="false" visibility="public" jni-signature="Lcom/vivalnk/a/d;">
+      <constructor deprecated="not deprecated" final="false" name="d" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.a.d" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(F)F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(FIF)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e" static="false" visibility="public" jni-signature="Lcom/vivalnk/a/e;">
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="F" static="true" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="F" static="true" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="F" static="true" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="g" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="h" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="i" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.vivalnk.a.a" extends-generic-aware="com.vivalnk.a.a" jni-extends="Lcom/vivalnk/a/a;" final="false" name="f" static="false" visibility="public" jni-signature="Lcom/vivalnk/a/f;">
+      <constructor deprecated="not deprecated" final="false" name="f" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.a.f" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="(FJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="A" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="B" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="C" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="com.vivalnk.model" jni-name="com/vivalnk/model">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ChargerInfo" static="false" visibility="public" jni-signature="Lcom/vivalnk/model/ChargerInfo;">
+      <implements name="java.io.Serializable" name-generic-aware="java.io.Serializable" jni-type="Ljava/io/Serializable;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="ChargerInfo" jni-signature="(Ljava/lang/String;Ljava/lang/String;Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;F)V" bridge="false" static="false" type="com.vivalnk.model.ChargerInfo" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS" jni-type="Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;">
+        </parameter>
+        <parameter name="p3" type="float" jni-type="F">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getChargerBatteryStatus" jni-signature="()Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS" jni-return="Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getChargerFW" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMacAddress" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOffset" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRSSI" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSN" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setChargerBatteryStatus" jni-signature="(Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS" jni-type="Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setChargerFW" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMacAddress" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOffset" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setRSSI" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSN" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="DeviceInfo" static="false" visibility="public" jni-signature="Lcom/vivalnk/model/DeviceInfo;">
+      <implements name="java.io.Serializable" name-generic-aware="java.io.Serializable" jni-type="Ljava/io/Serializable;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="DeviceInfo" jni-signature="(Ljava/lang/String;Ljava/lang/String;I)V" bridge="false" static="false" type="com.vivalnk.model.DeviceInfo" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDeviceType" jni-signature="()Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.DEVICE_TYPE" jni-return="Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMacAddress" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRSSI" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSN" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDeviceType" jni-signature="(Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.vivalnk.vdireader.VDIType.DEVICE_TYPE" jni-type="Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMacAddress" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setRSSI" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSN" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="TemperatureInfo" static="false" visibility="public" jni-signature="Lcom/vivalnk/model/TemperatureInfo;">
+      <implements name="java.io.Serializable" name-generic-aware="java.io.Serializable" jni-type="Ljava/io/Serializable;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="TemperatureInfo" jni-signature="(Ljava/lang/String;FI)V" bridge="false" static="false" type="com.vivalnk.model.TemperatureInfo" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFinalTemperature" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMacAddress" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPatchBatteryLevel" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPatchFW" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRSSI" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRawTemperature" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSN" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTemperatureStatus" jni-signature="()Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" jni-return="Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFinalTemperature" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMacAddress" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPatchBatteryLevel" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPatchFW" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setRSSI" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setRawTemperature" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSN" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTemperatureStatus" jni-signature="(Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" jni-type="Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;">
+        </parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.vivalnk.vdireader" jni-name="com/vivalnk/vdireader">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireader/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.vdireader.BuildConfig" synthetic="false" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.vivalnk.vdireader&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;debug&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;3.0.2.0002&quot;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="VDICommonBleListener" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireader/VDICommonBleListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onChargerInfoUpdate" jni-signature="(Lcom/vivalnk/model/ChargerInfo;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.vivalnk.model.ChargerInfo" jni-type="Lcom/vivalnk/model/ChargerInfo;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onDeviceLost" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onNewDeviceDiscovered" jni-signature="(Lcom/vivalnk/model/DeviceInfo;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.vivalnk.model.DeviceInfo" jni-type="Lcom/vivalnk/model/DeviceInfo;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onTemperatureAbnormalStatusUpdate" jni-signature="(Ljava/lang/String;Lcom/vivalnk/vdireader/VDIType$ABNORMAL_TEMPERATURE_STATUS;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="com.vivalnk.vdireader.VDIType.ABNORMAL_TEMPERATURE_STATUS" jni-type="Lcom/vivalnk/vdireader/VDIType$ABNORMAL_TEMPERATURE_STATUS;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onTemperatureMissed" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onTemperatureUpdated" jni-signature="(Lcom/vivalnk/model/TemperatureInfo;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.vivalnk.model.TemperatureInfo" jni-type="Lcom/vivalnk/model/TemperatureInfo;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="phoneBluetoothOff" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="phoneLocationOff" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="VDICommonBleReader" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireader/VDICommonBleReader;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="addPDList" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addPDList" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="checkBle" jni-signature="()Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" jni-return="Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="destroy" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getLostThreshold" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getPDListLength" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getPairingRssi" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="iteratePDList" jni-signature="()Ljava/util/ArrayList;" bridge="false" native="false" return="java.util.ArrayList&lt;java.lang.String&gt;" jni-return="Ljava/util/ArrayList&lt;Ljava/lang/String;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="purgePDList" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="removePDList" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="resume" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setListener" jni-signature="(Lcom/vivalnk/vdireader/VDICommonBleListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.vivalnk.vdireader.VDICommonBleListener" jni-type="Lcom/vivalnk/vdireader/VDICommonBleListener;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setLostThreshold" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setPairingRssi" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="startDeviceDiscovery" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="startTemperatureUpdate" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="stopDeviceDiscovery" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="stopTemperatureUpdate" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="suspend" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="VDIType" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireader/VDIType;">
+      <constructor deprecated="not deprecated" final="false" name="VDIType" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.vdireader.VDIType" synthetic="false" visibility="public">
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.vivalnk.vdireader.VDIType.ABNORMAL_TEMPERATURE_STATUS&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="VDIType.ABNORMAL_TEMPERATURE_STATUS" static="true" visibility="public" jni-signature="Lcom/vivalnk/vdireader/VDIType$ABNORMAL_TEMPERATURE_STATUS;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/vivalnk/vdireader/VDIType$ABNORMAL_TEMPERATURE_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.ABNORMAL_TEMPERATURE_STATUS" jni-return="Lcom/vivalnk/vdireader/VDIType$ABNORMAL_TEMPERATURE_STATUS;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/vivalnk/vdireader/VDIType$ABNORMAL_TEMPERATURE_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.ABNORMAL_TEMPERATURE_STATUS[]" jni-return="[Lcom/vivalnk/vdireader/VDIType$ABNORMAL_TEMPERATURE_STATUS;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="LOW_TEMPERATURE" jni-signature="Lcom/vivalnk/vdireader/VDIType$ABNORMAL_TEMPERATURE_STATUS;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.ABNORMAL_TEMPERATURE_STATUS" type-generic-aware="com.vivalnk.vdireader.VDIType.ABNORMAL_TEMPERATURE_STATUS" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="LOW_TEMPERATURE_WARMUP" jni-signature="Lcom/vivalnk/vdireader/VDIType$ABNORMAL_TEMPERATURE_STATUS;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.ABNORMAL_TEMPERATURE_STATUS" type-generic-aware="com.vivalnk.vdireader.VDIType.ABNORMAL_TEMPERATURE_STATUS" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="VDIType.CHARGER_BATTERY_STATUS" static="true" visibility="public" jni-signature="Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS" jni-return="Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS[]" jni-return="[Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="LOW" jni-signature="Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS" type-generic-aware="com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NORMAL" jni-signature="Lcom/vivalnk/vdireader/VDIType$CHARGER_BATTERY_STATUS;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS" type-generic-aware="com.vivalnk.vdireader.VDIType.CHARGER_BATTERY_STATUS" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="VDIType.CHECKBLE_STATUS_TYPE" static="true" visibility="public" jni-signature="Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" jni-return="Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE[]" jni-return="[Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="RESULT_OK" jni-signature="Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" type-generic-aware="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="SYSTEM_BLE_NOT_ENABLED" jni-signature="Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" type-generic-aware="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="SYSTEM_LOCATION_NOT_ENABLED" jni-signature="Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" type-generic-aware="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="SYSTEM_NOT_SUPPORT_BLE" jni-signature="Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" type-generic-aware="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.vivalnk.vdireader.VDIType.DEVICE_TYPE&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="VDIType.DEVICE_TYPE" static="true" visibility="public" jni-signature="Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.DEVICE_TYPE" jni-return="Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.DEVICE_TYPE[]" jni-return="[Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="ENCRYPTED" jni-signature="Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.DEVICE_TYPE" type-generic-aware="com.vivalnk.vdireader.VDIType.DEVICE_TYPE" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NORMAL" jni-signature="Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.DEVICE_TYPE" type-generic-aware="com.vivalnk.vdireader.VDIType.DEVICE_TYPE" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.vivalnk.vdireader.VDIType.ENCRYPTED_DEVICE_TYPE&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="VDIType.ENCRYPTED_DEVICE_TYPE" static="true" visibility="public" jni-signature="Lcom/vivalnk/vdireader/VDIType$ENCRYPTED_DEVICE_TYPE;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/vivalnk/vdireader/VDIType$ENCRYPTED_DEVICE_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.ENCRYPTED_DEVICE_TYPE" jni-return="Lcom/vivalnk/vdireader/VDIType$ENCRYPTED_DEVICE_TYPE;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/vivalnk/vdireader/VDIType$ENCRYPTED_DEVICE_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.ENCRYPTED_DEVICE_TYPE[]" jni-return="[Lcom/vivalnk/vdireader/VDIType$ENCRYPTED_DEVICE_TYPE;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="EIGHT_SECONDS" jni-signature="Lcom/vivalnk/vdireader/VDIType$ENCRYPTED_DEVICE_TYPE;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.ENCRYPTED_DEVICE_TYPE" type-generic-aware="com.vivalnk.vdireader.VDIType.ENCRYPTED_DEVICE_TYPE" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FOUR_SECONDS" jni-signature="Lcom/vivalnk/vdireader/VDIType$ENCRYPTED_DEVICE_TYPE;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.ENCRYPTED_DEVICE_TYPE" type-generic-aware="com.vivalnk.vdireader.VDIType.ENCRYPTED_DEVICE_TYPE" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="VDIType.TEMPERATURE_STATUS" static="true" visibility="public" jni-signature="Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" jni-return="Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS[]" jni-return="[Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="NORMAL" jni-signature="Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" type-generic-aware="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="WARMUP" jni-signature="Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" static="true" transient="false" type="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" type-generic-aware="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="com.vivalnk.vdireaderimpl" jni-name="com/vivalnk/vdireaderimpl">
+    <class abstract="false" deprecated="not deprecated" extends="com.vivalnk.vdireaderimpl.d" extends-generic-aware="com.vivalnk.vdireaderimpl.d" jni-extends="Lcom/vivalnk/vdireaderimpl/d;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/a;">
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;J)V" bridge="false" static="false" type="com.vivalnk.vdireaderimpl.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="long" jni-type="J">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.vivalnk.vdireader.VDIType.DEVICE_TYPE" jni-type="Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;ILcom/vivalnk/vdireader/VDICommonBleListener;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="com.vivalnk.vdireader.VDICommonBleListener" jni-type="Lcom/vivalnk/vdireader/VDICommonBleListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.DEVICE_TYPE" jni-return="Lcom/vivalnk/vdireader/VDIType$DEVICE_TYPE;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/b;">
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/c;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="([B)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p4" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p5" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CommonFunction" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/CommonFunction;">
+      <constructor deprecated="not deprecated" final="false" name="CommonFunction" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.vdireaderimpl.CommonFunction" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="C2F" jni-signature="(F)F" bridge="false" native="false" return="float" jni-return="F" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="F2C" jni-signature="(F)F" bridge="false" native="false" return="float" jni-return="F" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getApplicationSharedPreference" jni-signature="()Landroid/content/SharedPreferences;" bridge="false" native="false" return="android.content.SharedPreferences" jni-return="Landroid/content/SharedPreferences;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getBooleanPreferenceValue" jni-signature="(Ljava/lang/String;Z)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFloatPreferenceValue" jni-signature="(Ljava/lang/String;F)F" bridge="false" native="false" return="float" jni-return="F" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIntPreferenceValue" jni-signature="(Ljava/lang/String;I)I" bridge="false" native="false" return="int" jni-return="I" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLongPreferenceValue" jni-signature="(Ljava/lang/String;J)J" bridge="false" native="false" return="long" jni-return="J" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStringPreferenceValue" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveBooleanPreferenceValue" jni-signature="(Ljava/lang/String;Z)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveFloatPreferenceValue" jni-signature="(Ljava/lang/String;F)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveIntPreferenceValue" jni-signature="(Ljava/lang/String;I)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveLongPreferenceValue" jni-signature="(Ljava/lang/String;J)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveStringPreferenceValue" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setApplicationSharedPreference" jni-signature="(Landroid/content/SharedPreferences;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.SharedPreferences" jni-type="Landroid/content/SharedPreferences;">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="DEFAULT_OFFEST" jni-signature="F" static="true" transient="false" type="float" type-generic-aware="float" value="-100" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="OFFEST_UNIT" jni-signature="F" static="true" transient="false" type="float" type-generic-aware="float" value="0.0001" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PREFERENCE_OFFEST_PREFIX" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;V200OffsetPrefix&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PREFERENCE_PASSWORD_PREFIX" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Password&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PREFERENCE__NONCE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Nonce&quot;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="d" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/d;">
+      <constructor deprecated="not deprecated" final="false" name="d" jni-signature="(Ljava/lang/String;Ljava/lang/String;J)V" bridge="false" static="false" type="com.vivalnk.vdireaderimpl.d" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="long" jni-type="J">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(FJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;FLcom/vivalnk/vdireader/VDICommonBleListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="float" jni-type="F">
+        </parameter>
+        <parameter name="p2" type="com.vivalnk.vdireader.VDICommonBleListener" jni-type="Lcom/vivalnk/vdireader/VDICommonBleListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/util/Timer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Timer" jni-type="Ljava/util/Timer;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/util/TimerTask;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.TimerTask" jni-type="Ljava/util/TimerTask;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/util/Timer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Timer" jni-type="Ljava/util/Timer;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/util/TimerTask;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.TimerTask" jni-type="Ljava/util/TimerTask;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="(F)F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="f" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="f" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="g" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="h" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="i" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="j" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="k" jni-signature="()Ljava/util/Timer;" bridge="false" native="false" return="java.util.Timer" jni-return="Ljava/util/Timer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="l" jni-signature="()Ljava/util/TimerTask;" bridge="false" native="false" return="java.util.TimerTask" jni-return="Ljava/util/TimerTask;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="m" jni-signature="()Ljava/util/Timer;" bridge="false" native="false" return="java.util.Timer" jni-return="Ljava/util/Timer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n" jni-signature="()Ljava/util/TimerTask;" bridge="false" native="false" return="java.util.TimerTask" jni-return="Ljava/util/TimerTask;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="o" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="p" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="q" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="r" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="s" jni-signature="()Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.TEMPERATURE_STATUS" jni-return="Lcom/vivalnk/vdireader/VDIType$TEMPERATURE_STATUS;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="F" static="false" transient="false" type="float" type-generic-aware="float" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/e;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(II)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)Lcom/vivalnk/model/ChargerInfo;" bridge="false" native="false" return="com.vivalnk.model.ChargerInfo" jni-return="Lcom/vivalnk/model/ChargerInfo;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Z)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;I)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.app.Service" extends-generic-aware="android.app.Service" jni-extends="Landroid/app/Service;" final="false" name="VDIBleService" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/VDIBleService;">
+      <constructor deprecated="not deprecated" final="false" name="VDIBleService" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.vdireaderimpl.VDIBleService" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="background" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="foreground" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onBind" jni-signature="(Landroid/content/Intent;)Landroid/os/IBinder;" bridge="false" native="false" return="android.os.IBinder" jni-return="Landroid/os/IBinder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Intent" jni-type="Landroid/content/Intent;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setNotification" jni-signature="(Landroid/app/Notification;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Notification" jni-type="Landroid/app/Notification;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.Binder" extends-generic-aware="android.os.Binder" jni-extends="Landroid/os/Binder;" final="false" name="VDIBleService.LocalBinder" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/VDIBleService$LocalBinder;">
+      <constructor deprecated="not deprecated" final="false" name="VDIBleService.LocalBinder" jni-signature="(Lcom/vivalnk/vdireaderimpl/VDIBleService;)V" bridge="false" static="false" type="com.vivalnk.vdireaderimpl.VDIBleService.LocalBinder" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getService" jni-signature="()Lcom/vivalnk/vdireaderimpl/VDIBleService;" bridge="false" native="false" return="com.vivalnk.vdireaderimpl.VDIBleService" jni-return="Lcom/vivalnk/vdireaderimpl/VDIBleService;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="VDIBleThermometer" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/VDIBleThermometer;">
+      <implements name="com.vivalnk.vdireader.VDICommonBleReader" name-generic-aware="com.vivalnk.vdireader.VDICommonBleReader" jni-type="Lcom/vivalnk/vdireader/VDICommonBleReader;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="VDIBleThermometer" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.vivalnk.vdireaderimpl.VDIBleThermometer" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/bluetooth/BluetoothDevice;I[B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="android.bluetooth.BluetoothDevice" jni-type="Landroid/bluetooth/BluetoothDevice;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="([B)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)Lcom/vivalnk/vdireaderimpl/a;" bridge="false" native="false" return="com.vivalnk.vdireaderimpl.a" jni-return="Lcom/vivalnk/vdireaderimpl/a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addPDList" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addPDList" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="checkBle" jni-signature="()Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" bridge="false" native="false" return="com.vivalnk.vdireader.VDIType.CHECKBLE_STATUS_TYPE" jni-return="Lcom/vivalnk/vdireader/VDIType$CHECKBLE_STATUS_TYPE;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="destroy" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLostThreshold" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPDListLength" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPairingRssi" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="iteratePDList" jni-signature="()Ljava/util/ArrayList;" bridge="false" native="false" return="java.util.ArrayList&lt;java.lang.String&gt;" jni-return="Ljava/util/ArrayList&lt;Ljava/lang/String;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="purgePDList" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removePDList" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="resume" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setListener" jni-signature="(Lcom/vivalnk/vdireader/VDICommonBleListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.vivalnk.vdireader.VDICommonBleListener" jni-type="Lcom/vivalnk/vdireader/VDICommonBleListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLostThreshold" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPairingRssi" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="startDeviceDiscovery" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="startTemperatureUpdate" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="stopDeviceDiscovery" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="stopTemperatureUpdate" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="suspend" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="Landroid/bluetooth/BluetoothAdapter;" static="false" transient="false" type="android.bluetooth.BluetoothAdapter" type-generic-aware="android.bluetooth.BluetoothAdapter" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Ljava/util/ArrayList;" static="false" transient="false" type="java.util.ArrayList" type-generic-aware="java.util.ArrayList&lt;com.vivalnk.vdireaderimpl.a&gt;" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="g" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="h" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="VDIBleThermometer.1" static="false" visibility="" jni-signature="Lcom/vivalnk/vdireaderimpl/VDIBleThermometer$1;">
+      <implements name="android.bluetooth.BluetoothAdapter.LeScanCallback" name-generic-aware="android.bluetooth.BluetoothAdapter.LeScanCallback" jni-type="Landroid/bluetooth/BluetoothAdapter$LeScanCallback;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLeScan" jni-signature="(Landroid/bluetooth/BluetoothDevice;I[B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.bluetooth.BluetoothDevice" jni-type="Landroid/bluetooth/BluetoothDevice;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" jni-extends="Landroid/content/BroadcastReceiver;" final="false" name="VDIBleThermometer.2" static="false" visibility="" jni-signature="Lcom/vivalnk/vdireaderimpl/VDIBleThermometer$2;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" jni-signature="(Landroid/content/Context;Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="p1" type="android.content.Intent" jni-type="Landroid/content/Intent;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.util.TimerTask" extends-generic-aware="java.util.TimerTask" jni-extends="Ljava/util/TimerTask;" final="false" name="VDIBleThermometer.3" static="false" visibility="" jni-signature="Lcom/vivalnk/vdireaderimpl/VDIBleThermometer$3;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.util.TimerTask" extends-generic-aware="java.util.TimerTask" jni-extends="Ljava/util/TimerTask;" final="false" name="VDIBleThermometer.4" static="false" visibility="" jni-signature="Lcom/vivalnk/vdireaderimpl/VDIBleThermometer$4;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.vivalnk.vdireaderimpl.VDIBleThermometer" extends-generic-aware="com.vivalnk.vdireaderimpl.VDIBleThermometer" jni-extends="Lcom/vivalnk/vdireaderimpl/VDIBleThermometer;" final="false" name="VDIBleThermometerL" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdireaderimpl/VDIBleThermometerL;">
+      <constructor deprecated="not deprecated" final="false" name="VDIBleThermometerL" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.vivalnk.vdireaderimpl.VDIBleThermometerL" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="()Ljava/util/List;" bridge="false" native="false" return="java.util.List&lt;android.bluetooth.le.ScanFilter&gt;" jni-return="Ljava/util/List&lt;Landroid/bluetooth/le/ScanFilter;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.bluetooth.le.ScanCallback" extends-generic-aware="android.bluetooth.le.ScanCallback" jni-extends="Landroid/bluetooth/le/ScanCallback;" final="false" name="VDIBleThermometerL.1" static="false" visibility="" jni-signature="Lcom/vivalnk/vdireaderimpl/VDIBleThermometerL$1;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="onBatchScanResults" jni-signature="(Ljava/util/List;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;android.bluetooth.le.ScanResult&gt;" jni-type="Ljava/util/List&lt;Landroid/bluetooth/le/ScanResult;&gt;;">
+        </parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.vivalnk.vdiutility" jni-name="com/vivalnk/vdiutility">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="viLog" static="false" visibility="public" jni-signature="Lcom/vivalnk/vdiutility/viLog;">
+      <constructor deprecated="not deprecated" final="false" name="viLog" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.vdiutility.viLog" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="java.lang.Object..." jni-type="[Ljava/lang/Object;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="java.lang.Object..." jni-type="[Ljava/lang/Object;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="i" jni-signature="(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="java.lang.Object..." jni-type="[Ljava/lang/Object;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="v" jni-signature="(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="java.lang.Object..." jni-type="[Ljava/lang/Object;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="w" jni-signature="(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p2" type="java.lang.Object..." jni-type="[Ljava/lang/Object;">
+        </parameter>
+      </method>
+    </class>
+  </package>
+</api>

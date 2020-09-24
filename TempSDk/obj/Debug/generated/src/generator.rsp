@@ -2,7 +2,7 @@
 --csdir="obj\Debug\generated\src"
 --enumdir="obj\Debug\generated\enums"
 --enummetadata="obj\Debug\generated\metadata"
---assembly=TempSDk
+--assembly=TempSDK
 --ref="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v1.0\mscorlib.dll"
 --ref="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v1.0\Java.Interop.dll"
 --ref="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v9.0\Mono.Android.dll"

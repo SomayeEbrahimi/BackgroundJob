@@ -4,6 +4,10 @@ using Android.Runtime;
 using Android.OS;
 using Matcha.BackgroundService.Droid;
 using Android.Content;
+using Com.Vivalnk.Vdireader;
+using System;
+using Com.Vivalnk.Vdireaderimpl;
+using Com.Vivalnk.Model;
 
 namespace BackgroundJob.Droid
 {
@@ -22,7 +26,7 @@ namespace BackgroundJob.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
-            LoadApplication(new App());
+           // LoadApplication(new App());
 
             var alarmIntent = new Intent(this, typeof(BackgroundReceiver));
             var pending = PendingIntent.GetBroadcast(this, 0, alarmIntent, PendingIntentFlags.UpdateCurrent);
@@ -30,11 +34,61 @@ namespace BackgroundJob.Droid
             var alarmManager = GetSystemService(AlarmService).JavaCast<AlarmManager>();
             alarmManager.SetRepeating(AlarmType.RtcWakeup, 0, 1 * 10, pending);
 
-            //VitalClient.getInstance().init(this);
 
-            //int resultCode = VitalClient.getInstance().checkBle();
-
-            //ScanOptions options = new ScanOptions.Builder().setTimeout(5 * 1000).build();
+            IVDICommonBleReader mBleReader;
+#pragma warning disable CS0618 // Type or member is obsolete
+            var sdk = Convert.ToInt32(Build.VERSION.Sdk);
+#pragma warning restore CS0618 // Type or member is obsolete
+            if (sdk >= 21)
+            {
+                mBleReader = new VDIBleThermometerL(this);
+            }
+            else
+            {
+                mBleReader = new VDIBleThermometer(this);
+            }
+           // mBleReader.SetListener();
+            mBleReader.StartDeviceDiscovery();
+            mBleReader.StopDeviceDiscovery();
+            var bluetoothStatus = mBleReader.CheckBle();
+            if (bluetoothStatus == VDIType.CHECKBLE_STATUS_TYPE.SystemBleNotEnabled)
+            {
+                // Do Sth
+            }
+            else if (bluetoothStatus == VDIType.CHECKBLE_STATUS_TYPE.SystemLocationNotEnabled)
+            {
+                // Do Sth
+            }
+            else if (bluetoothStatus == VDIType.CHECKBLE_STATUS_TYPE.SystemNotSupportBle)
+            {
+                // Do Sth
+            }
+            else if (bluetoothStatus == VDIType.CHECKBLE_STATUS_TYPE.ResultOk)
+            {
+                // Do Sth
+            }
+            else
+            {
+                // Do Sth   
+            }
+            mBleReader.AddPDList("deviceId");
+            mBleReader.AddPDList("deviceId", "password");
+            mBleReader.RemovePDList("deviceId");
+            mBleReader.PurgePDList();
+            var pdListLength = mBleReader.PDListLength;
+            mBleReader.StartTemperatureUpdate();
+            mBleReader.StopTemperatureUpdate();
+            if (Build.Manufacturer?.ToLower() == "samsung")
+            {
+                if (Build.VERSION.PreviewSdkInt >= 23)
+                {
+                    var serviceIntent = new Intent(this, typeof(VDIBleService));
+                    StartService(serviceIntent);
+                    BindService(serviceIntent, null, 0);
+                }
+            }
+            var chargerInfo = new ChargerInfo("chie?", "chie??", VDIType.CHARGER_BATTERY_STATUS.Low, 0.3f);
+            // var deviceInfo = new DeviceInfo();
 
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

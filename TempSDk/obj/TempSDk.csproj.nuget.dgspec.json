@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\BackgroundJob\\TempSDk\\TempSDk.csproj": {}
+    "F:\\BackgroundJob\\TempSDK\\TempSDK.csproj": {}
   },
   "projects": {
-    "F:\\BackgroundJob\\TempSDk\\TempSDk.csproj": {
+    "F:\\BackgroundJob\\TempSDK\\TempSDK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\BackgroundJob\\TempSDk\\TempSDk.csproj",
-        "projectName": "TempSDk",
-        "projectPath": "F:\\BackgroundJob\\TempSDk\\TempSDk.csproj",
+        "projectUniqueName": "F:\\BackgroundJob\\TempSDK\\TempSDK.csproj",
+        "projectName": "TempSDK",
+        "projectPath": "F:\\BackgroundJob\\TempSDK\\TempSDK.csproj",
         "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-        "outputPath": "F:\\BackgroundJob\\TempSDk\\obj\\",
+        "outputPath": "F:\\BackgroundJob\\TempSDK\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

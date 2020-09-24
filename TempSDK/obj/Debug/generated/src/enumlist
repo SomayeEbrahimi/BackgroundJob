@@ -1,0 +1,6 @@
+com.vivalnk.vdireader.VDIType$ABNORMAL_TEMPERATURE_STATUS:Com.Vivalnk.Vdireader:VDIType.ABNORMAL_TEMPERATURE_STATUS
+com.vivalnk.vdireader.VDIType$CHARGER_BATTERY_STATUS:Com.Vivalnk.Vdireader:VDIType.CHARGER_BATTERY_STATUS
+com.vivalnk.vdireader.VDIType$CHECKBLE_STATUS_TYPE:Com.Vivalnk.Vdireader:VDIType.CHECKBLE_STATUS_TYPE
+com.vivalnk.vdireader.VDIType$DEVICE_TYPE:Com.Vivalnk.Vdireader:VDIType.DEVICE_TYPE
+com.vivalnk.vdireader.VDIType$ENCRYPTED_DEVICE_TYPE:Com.Vivalnk.Vdireader:VDIType.ENCRYPTED_DEVICE_TYPE
+com.vivalnk.vdireader.VDIType$TEMPERATURE_STATUS:Com.Vivalnk.Vdireader:VDIType.TEMPERATURE_STATUS

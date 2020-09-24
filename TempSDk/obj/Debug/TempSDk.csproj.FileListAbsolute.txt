@@ -1,7 +1,8 @@
-F:\BackgroundJob\TempSDk\bin\Debug\TempSDk.dll
-F:\BackgroundJob\TempSDk\bin\Debug\TempSDk.pdb
-F:\BackgroundJob\TempSDk\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
-F:\BackgroundJob\TempSDk\obj\Debug\stamp\_BuildLibraryImportsCache.stamp
-F:\BackgroundJob\TempSDk\obj\Debug\TempSDk.csproj.CoreCompileInputs.cache
-F:\BackgroundJob\TempSDk\obj\Debug\TempSDk.dll
-F:\BackgroundJob\TempSDk\obj\Debug\TempSDk.pdb
+F:\BackgroundJob\TempSDK\bin\Debug\TempSDK.dll
+F:\BackgroundJob\TempSDK\bin\Debug\TempSDK.pdb
+F:\BackgroundJob\TempSDK\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+F:\BackgroundJob\TempSDK\obj\Debug\stamp\_BuildLibraryImportsCache.stamp
+F:\BackgroundJob\TempSDK\obj\Debug\TempSDK.csproj.CoreCompileInputs.cache
+F:\BackgroundJob\TempSDK\obj\Debug\TempSDK.dll
+F:\BackgroundJob\TempSDK\obj\Debug\TempSDK.pdb
+F:\BackgroundJob\TempSDK\obj\Debug\TempSDK.csprojAssemblyReference.cache
