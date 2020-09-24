@@ -1,7 +1,0 @@
-F:\BackgroundJob\AndriodBinding\bin\Debug\AndriodBinding.dll
-F:\BackgroundJob\AndriodBinding\bin\Debug\AndriodBinding.pdb
-F:\BackgroundJob\AndriodBinding\obj\Debug\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
-F:\BackgroundJob\AndriodBinding\obj\Debug\stamp\_BuildLibraryImportsCache.stamp
-F:\BackgroundJob\AndriodBinding\obj\Debug\AndriodBinding.csproj.CoreCompileInputs.cache
-F:\BackgroundJob\AndriodBinding\obj\Debug\AndriodBinding.dll
-F:\BackgroundJob\AndriodBinding\obj\Debug\AndriodBinding.pdb
