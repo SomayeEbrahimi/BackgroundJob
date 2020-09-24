@@ -5,7 +5,22 @@
   
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  
   -->
-  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='CharacterWriteReliable']" name="visibility">public</attr>
-
+  <remove-node path="/api/package[@name='com.vivalnk.sdk.common.eventbus']/class[@name='MainThreadSupport.AndroidHandlerMainThreadSupport']/method[@name='createPoster' and count(parameter)=1 and parameter[1][@type='com.vivalnk.sdk.common.eventbus.EventBus']]"></remove-node>
+  <remove-node path="/api/package[@name='com.vivalnk.sdk.common.eventbus']/interface[@name='MainThreadSupport']/method[@name='createPoster' and count(parameter)=1 and parameter[1][@type='com.vivalnk.sdk.common.eventbus.EventBus']]"></remove-node>
+  <remove-node path="/api/package[@name='com.vivalnk.sdk.common.eventbus.util']/class[@name='ErrorDialogFragmentFactory.Honeycomb']"></remove-node>
+  
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='DescriptorRead']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='CharacterWriteReliable']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='CharacterWrite']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='CharacterRead']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='DescriptorWrite']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='DiscoverService']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='IndicateRequest']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='MtuRequest']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='NotifyRequest']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='ReadRemoteRssi']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='RefreshCache']/method[@name='process' and count(parameter)=0]" name="visibility">protected</attr>
+  
 </metadata>

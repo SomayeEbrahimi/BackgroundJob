@@ -53,9 +53,6 @@
     <Reference Include="ECGCommonSDK">
       <HintPath>..\ECGCommonSDK\bin\Debug\ECGCommonSDK.dll</HintPath>
     </Reference>
-    <Reference Include="ECGCoreSDK">
-      <HintPath>..\ECGCoreSDK\bin\Debug\ECGCoreSDK.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -671,7 +671,6 @@ com/vivalnk/sdk/common/eventbus/Logger = Com.Vivalnk.Sdk.Common.Eventbus.ILogger
   log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V = Log(Java.Util.Logging.Level, string, Java.Lang.Throwable)
 com/vivalnk/sdk/common/eventbus/MainThreadSupport = Com.Vivalnk.Sdk.Common.Eventbus.IMainThreadSupport
   isMainThread()Z = IsMainThread
-  createPoster(Lcom/vivalnk/sdk/common/eventbus/EventBus;)Lcom/vivalnk/sdk/common/eventbus/Poster; = CreatePoster(Com.Vivalnk.Sdk.Common.Eventbus.EventBus)
 com/vivalnk/sdk/common/eventbus/meta/AbstractSubscriberInfo = Com.Vivalnk.Sdk.Common.Eventbus.Meta.AbstractSubscriberInfo
   <init>(Ljava/lang/Class;Ljava/lang/Class;Z)V = .ctor(Java.Lang.Class, Java.Lang.Class, bool)
   getSubscriberClass()Ljava/lang/Class; = SubscriberClass

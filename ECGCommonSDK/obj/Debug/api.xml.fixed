@@ -1483,7 +1483,7 @@
         <parameter name="character" type="java.util.UUID" jni-type="Ljava/util/UUID;"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="CharacterRead.CharacterReadListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/CharacterRead$CharacterReadListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -1503,7 +1503,7 @@
         <parameter name="value" type="byte[]" jni-type="[B"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="CharacterWrite.CharacterWriteListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/CharacterWrite$CharacterWriteListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -1530,7 +1530,7 @@
         <parameter name="value" type="byte[]" jni-type="[B"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="CharacterWriteReliable.CharacterWriteReliableListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/CharacterWriteReliable$CharacterWriteReliableListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -1550,7 +1550,7 @@
         <parameter name="descriptor" type="java.util.UUID" jni-type="Ljava/util/UUID;"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="DescriptorRead.DescriptorReadListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/DescriptorRead$DescriptorReadListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -1571,7 +1571,7 @@
         <parameter name="value" type="byte[]" jni-type="[B"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="DescriptorWrite.DescriptorWriteListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/DescriptorWrite$DescriptorWriteListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -1588,7 +1588,7 @@
         <parameter name="listener" type="com.vivalnk.sdk.common.ble.connect.request.DiscoverService.DiscoverServiceListener" jni-type="Lcom/vivalnk/sdk/common/ble/connect/request/DiscoverService$DiscoverServiceListener;"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
       <method abstract="false" deprecated="not deprecated" final="false" name="setOptions" jni-signature="(Lcom/vivalnk/sdk/common/ble/connect/BleConnectOptions;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
         <parameter name="options" type="com.vivalnk.sdk.common.ble.connect.BleConnectOptions" jni-type="Lcom/vivalnk/sdk/common/ble/connect/BleConnectOptions;"></parameter>
       </method>
@@ -1611,7 +1611,7 @@
         <parameter name="enable" type="boolean" jni-type="Z"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="IndicateRequest.IndicateListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/IndicateRequest$IndicateListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -1625,7 +1625,7 @@
         <parameter name="mtu" type="int" jni-type="I"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="MtuRequest.MtuListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/MtuRequest$MtuListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -1644,7 +1644,7 @@
         <parameter name="enable" type="boolean" jni-type="Z"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="NotifyRequest.NotifyChangeListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/NotifyRequest$NotifyChangeListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -1659,7 +1659,7 @@
         <parameter name="listener" type="com.vivalnk.sdk.common.ble.connect.request.ReadRemoteRssi.ReadRssiListener" jni-type="Lcom/vivalnk/sdk/common/ble/connect/request/ReadRemoteRssi$ReadRssiListener;"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="ReadRemoteRssi.ReadRssiListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/ReadRemoteRssi$ReadRssiListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -1679,7 +1679,7 @@
         <parameter name="listener" type="com.vivalnk.sdk.common.ble.connect.request.RefreshCache.RefreshCacheListener" jni-type="Lcom/vivalnk/sdk/common/ble/connect/request/RefreshCache$RefreshCacheListener;"></parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="getRequestName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="process" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected"></method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="RefreshCache.RefreshCacheListener" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/ble/connect/request/RefreshCache$RefreshCacheListener;">
       <implements name="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" name-generic-aware="com.vivalnk.sdk.common.ble.connect.base.RequestCallback" jni-type="Lcom/vivalnk/sdk/common/ble/connect/base/RequestCallback;"></implements>
@@ -2343,9 +2343,6 @@
       </method>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="MainThreadSupport" static="false" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/eventbus/MainThreadSupport;">
-      <method abstract="true" deprecated="not deprecated" final="false" name="createPoster" jni-signature="(Lcom/vivalnk/sdk/common/eventbus/EventBus;)Lcom/vivalnk/sdk/common/eventbus/Poster;" bridge="false" native="false" return="com.vivalnk.sdk.common.eventbus.Poster" jni-return="Lcom/vivalnk/sdk/common/eventbus/Poster;" static="false" synchronized="false" synthetic="false" visibility="public">
-        <parameter name="p0" type="com.vivalnk.sdk.common.eventbus.EventBus" jni-type="Lcom/vivalnk/sdk/common/eventbus/EventBus;"></parameter>
-      </method>
       <method abstract="true" deprecated="not deprecated" final="false" name="isMainThread" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
     </interface>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="MainThreadSupport.AndroidHandlerMainThreadSupport" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/eventbus/MainThreadSupport$AndroidHandlerMainThreadSupport;">
@@ -2353,9 +2350,6 @@
       <constructor deprecated="not deprecated" final="false" name="MainThreadSupport.AndroidHandlerMainThreadSupport" jni-signature="(Landroid/os/Looper;)V" bridge="false" static="false" type="com.vivalnk.sdk.common.eventbus.MainThreadSupport.AndroidHandlerMainThreadSupport" synthetic="false" visibility="public">
         <parameter name="looper" type="android.os.Looper" jni-type="Landroid/os/Looper;"></parameter>
       </constructor>
-      <method abstract="false" deprecated="not deprecated" final="false" name="createPoster" jni-signature="(Lcom/vivalnk/sdk/common/eventbus/EventBus;)Lcom/vivalnk/sdk/common/eventbus/Poster;" bridge="false" native="false" return="com.vivalnk.sdk.common.eventbus.Poster" jni-return="Lcom/vivalnk/sdk/common/eventbus/Poster;" static="false" synchronized="false" synthetic="false" visibility="public">
-        <parameter name="eventBus" type="com.vivalnk.sdk.common.eventbus.EventBus" jni-type="Lcom/vivalnk/sdk/common/eventbus/EventBus;"></parameter>
-      </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="isMainThread" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
     </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="NoSubscriberEvent" static="false" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/eventbus/NoSubscriberEvent;">
@@ -2579,15 +2573,6 @@
         <parameter name="argumentsForErrorDialog" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
       </method>
       <field deprecated="not deprecated" final="true" name="config" jni-signature="Lcom/vivalnk/sdk/common/eventbus/util/ErrorDialogConfig;" static="false" transient="false" type="com.vivalnk.sdk.common.eventbus.util.ErrorDialogConfig" type-generic-aware="com.vivalnk.sdk.common.eventbus.util.ErrorDialogConfig" visibility="protected" volatile="false"></field>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="com.vivalnk.sdk.common.eventbus.util.ErrorDialogFragmentFactory" extends-generic-aware="com.vivalnk.sdk.common.eventbus.util.ErrorDialogFragmentFactory&lt;android.app.Fragment&gt;" jni-extends="Lcom/vivalnk/sdk/common/eventbus/util/ErrorDialogFragmentFactory;" final="false" name="ErrorDialogFragmentFactory.Honeycomb" static="true" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/eventbus/util/ErrorDialogFragmentFactory$Honeycomb;">
-      <constructor deprecated="not deprecated" final="false" name="ErrorDialogFragmentFactory.Honeycomb" jni-signature="(Lcom/vivalnk/sdk/common/eventbus/util/ErrorDialogConfig;)V" bridge="false" static="false" type="com.vivalnk.sdk.common.eventbus.util.ErrorDialogFragmentFactory.Honeycomb" synthetic="false" visibility="public">
-        <parameter name="config" type="com.vivalnk.sdk.common.eventbus.util.ErrorDialogConfig" jni-type="Lcom/vivalnk/sdk/common/eventbus/util/ErrorDialogConfig;"></parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="false" name="createErrorFragment" jni-signature="(Lcom/vivalnk/sdk/common/eventbus/util/ThrowableFailureEvent;Landroid/os/Bundle;)Landroid/app/Fragment;" bridge="false" native="false" return="android.app.Fragment" jni-return="Landroid/app/Fragment;" static="false" synchronized="false" synthetic="false" visibility="protected">
-        <parameter name="event" type="com.vivalnk.sdk.common.eventbus.util.ThrowableFailureEvent" jni-type="Lcom/vivalnk/sdk/common/eventbus/util/ThrowableFailureEvent;"></parameter>
-        <parameter name="arguments" type="android.os.Bundle" jni-type="Landroid/os/Bundle;"></parameter>
-      </method>
     </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ErrorDialogFragments" static="false" visibility="public" jni-signature="Lcom/vivalnk/sdk/common/eventbus/util/ErrorDialogFragments;">
       <constructor deprecated="not deprecated" final="false" name="ErrorDialogFragments" jni-signature="()V" bridge="false" static="false" type="com.vivalnk.sdk.common.eventbus.util.ErrorDialogFragments" synthetic="false" visibility="public"></constructor>

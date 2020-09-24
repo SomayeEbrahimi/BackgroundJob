@@ -212,7 +212,7 @@ namespace Com.Vivalnk.Sdk.Common.Ble.Connect.Request {
 
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.vivalnk.sdk.common.ble.connect.request']/class[@name='RefreshCache']/method[@name='process' and count(parameter)=0]"
 		[Register ("process", "()V", "GetProcessHandler")]
-		public override unsafe void Process ()
+		protected override unsafe void Process ()
 		{
 			const string __id = "process.()V";
 			try {

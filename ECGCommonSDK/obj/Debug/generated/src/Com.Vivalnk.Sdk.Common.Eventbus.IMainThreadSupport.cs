@@ -79,38 +79,6 @@ namespace Com.Vivalnk.Sdk.Common.Eventbus {
 			}
 		}
 
-		static Delegate cb_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_;
-#pragma warning disable 0169
-		static Delegate GetCreatePoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_Handler ()
-		{
-			if (cb_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_ == null)
-				cb_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_ = JNINativeWrapper.CreateDelegate ((_JniMarshal_PPL_L) n_CreatePoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_);
-			return cb_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_;
-		}
-
-		static IntPtr n_CreatePoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_ (IntPtr jnienv, IntPtr native__this, IntPtr native_eventBus)
-		{
-			var __this = global::Java.Lang.Object.GetObject<global::Com.Vivalnk.Sdk.Common.Eventbus.MainThreadSupportAndroidHandlerMainThreadSupport> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			var eventBus = global::Java.Lang.Object.GetObject<global::Com.Vivalnk.Sdk.Common.Eventbus.EventBus> (native_eventBus, JniHandleOwnership.DoNotTransfer);
-			IntPtr __ret = JNIEnv.ToLocalJniHandle (__this.CreatePoster (eventBus));
-			return __ret;
-		}
-#pragma warning restore 0169
-
-		// Metadata.xml XPath method reference: path="/api/package[@name='com.vivalnk.sdk.common.eventbus']/class[@name='MainThreadSupport.AndroidHandlerMainThreadSupport']/method[@name='createPoster' and count(parameter)=1 and parameter[1][@type='com.vivalnk.sdk.common.eventbus.EventBus']]"
-		[Register ("createPoster", "(Lcom/vivalnk/sdk/common/eventbus/EventBus;)Lcom/vivalnk/sdk/common/eventbus/Poster;", "GetCreatePoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_Handler")]
-		public virtual unsafe global::Com.Vivalnk.Sdk.Common.Eventbus.IPoster CreatePoster (global::Com.Vivalnk.Sdk.Common.Eventbus.EventBus eventBus)
-		{
-			const string __id = "createPoster.(Lcom/vivalnk/sdk/common/eventbus/EventBus;)Lcom/vivalnk/sdk/common/eventbus/Poster;";
-			try {
-				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
-				__args [0] = new JniArgumentValue ((eventBus == null) ? IntPtr.Zero : ((global::Java.Lang.Object) eventBus).Handle);
-				var __rm = _members.InstanceMethods.InvokeVirtualObjectMethod (__id, this, __args);
-				return global::Java.Lang.Object.GetObject<global::Com.Vivalnk.Sdk.Common.Eventbus.IPoster> (__rm.Handle, JniHandleOwnership.TransferLocalRef);
-			} finally {
-			}
-		}
-
 	}
 
 	// Metadata.xml XPath interface reference: path="/api/package[@name='com.vivalnk.sdk.common.eventbus']/interface[@name='MainThreadSupport']"
@@ -121,10 +89,6 @@ namespace Com.Vivalnk.Sdk.Common.Eventbus {
 			// Metadata.xml XPath method reference: path="/api/package[@name='com.vivalnk.sdk.common.eventbus']/interface[@name='MainThreadSupport']/method[@name='isMainThread' and count(parameter)=0]"
 			[Register ("isMainThread", "()Z", "GetIsMainThreadHandler:Com.Vivalnk.Sdk.Common.Eventbus.IMainThreadSupportInvoker, ECGCommonSDK")] get;
 		}
-
-		// Metadata.xml XPath method reference: path="/api/package[@name='com.vivalnk.sdk.common.eventbus']/interface[@name='MainThreadSupport']/method[@name='createPoster' and count(parameter)=1 and parameter[1][@type='com.vivalnk.sdk.common.eventbus.EventBus']]"
-		[Register ("createPoster", "(Lcom/vivalnk/sdk/common/eventbus/EventBus;)Lcom/vivalnk/sdk/common/eventbus/Poster;", "GetCreatePoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_Handler:Com.Vivalnk.Sdk.Common.Eventbus.IMainThreadSupportInvoker, ECGCommonSDK")]
-		global::Com.Vivalnk.Sdk.Common.Eventbus.IPoster CreatePoster (global::Com.Vivalnk.Sdk.Common.Eventbus.EventBus p0);
 
 	}
 
@@ -202,35 +166,6 @@ namespace Com.Vivalnk.Sdk.Common.Eventbus {
 					id_isMainThread = JNIEnv.GetMethodID (class_ref, "isMainThread", "()Z");
 				return JNIEnv.CallBooleanMethod (((global::Java.Lang.Object) this).Handle, id_isMainThread);
 			}
-		}
-
-		static Delegate cb_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_;
-#pragma warning disable 0169
-		static Delegate GetCreatePoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_Handler ()
-		{
-			if (cb_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_ == null)
-				cb_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_ = JNINativeWrapper.CreateDelegate ((_JniMarshal_PPL_L) n_CreatePoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_);
-			return cb_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_;
-		}
-
-		static IntPtr n_CreatePoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
-		{
-			var __this = global::Java.Lang.Object.GetObject<global::Com.Vivalnk.Sdk.Common.Eventbus.IMainThreadSupport> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			var p0 = global::Java.Lang.Object.GetObject<global::Com.Vivalnk.Sdk.Common.Eventbus.EventBus> (native_p0, JniHandleOwnership.DoNotTransfer);
-			IntPtr __ret = JNIEnv.ToLocalJniHandle (__this.CreatePoster (p0));
-			return __ret;
-		}
-#pragma warning restore 0169
-
-		IntPtr id_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_;
-		public unsafe global::Com.Vivalnk.Sdk.Common.Eventbus.IPoster CreatePoster (global::Com.Vivalnk.Sdk.Common.Eventbus.EventBus p0)
-		{
-			if (id_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_ == IntPtr.Zero)
-				id_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_ = JNIEnv.GetMethodID (class_ref, "createPoster", "(Lcom/vivalnk/sdk/common/eventbus/EventBus;)Lcom/vivalnk/sdk/common/eventbus/Poster;");
-			JValue* __args = stackalloc JValue [1];
-			__args [0] = new JValue ((p0 == null) ? IntPtr.Zero : ((global::Java.Lang.Object) p0).Handle);
-			var __ret = global::Java.Lang.Object.GetObject<global::Com.Vivalnk.Sdk.Common.Eventbus.IPoster> (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_createPoster_Lcom_vivalnk_sdk_common_eventbus_EventBus_, __args), JniHandleOwnership.TransferLocalRef);
-			return __ret;
 		}
 
 	}
