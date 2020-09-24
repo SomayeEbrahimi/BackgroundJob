@@ -1,7 +1,4 @@
+F:\BackgroundJob\ECGCoreSDK\obj\Debug\__AndroidLibraryProjects__.zip
 F:\BackgroundJob\ECGCoreSDK\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 F:\BackgroundJob\ECGCoreSDK\obj\Debug\stamp\_BuildLibraryImportsCache.stamp
 F:\BackgroundJob\ECGCoreSDK\obj\Debug\ECGCoreSDK.csproj.CoreCompileInputs.cache
-F:\BackgroundJob\ECGCoreSDK\bin\Debug\ECGCoreSDK.dll
-F:\BackgroundJob\ECGCoreSDK\bin\Debug\ECGCoreSDK.pdb
-F:\BackgroundJob\ECGCoreSDK\obj\Debug\ECGCoreSDK.dll
-F:\BackgroundJob\ECGCoreSDK\obj\Debug\ECGCoreSDK.pdb

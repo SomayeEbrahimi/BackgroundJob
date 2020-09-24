@@ -1,0 +1,8 @@
+com.vivalnk.sdk.model.BatteryInfo$ChargeStatus:Com.Vivalnk.Sdk.Model:BatteryInfo.ChargeStatus
+com.vivalnk.sdk.model.DeviceModel:Com.Vivalnk.Sdk.Model:DeviceModel
+com.vivalnk.sdk.model.Event$EventType:Com.Vivalnk.Sdk.Model:Event.EventType
+com.vivalnk.sdk.model.Event$Tag:Com.Vivalnk.Sdk.Model:Event.Tag
+com.vivalnk.sdk.model.PatchStatusInfo$SampleFrequency:Com.Vivalnk.Sdk.Model:PatchStatusInfo.SampleFrequency
+com.vivalnk.sdk.model.Person$Ethnicity:Com.Vivalnk.Sdk.Model:Person.Ethnicity
+com.vivalnk.sdk.model.Person$Gender:Com.Vivalnk.Sdk.Model:Person.Gender
+com.vivalnk.sdk.model.WorkMode:Com.Vivalnk.Sdk.Model:WorkMode
